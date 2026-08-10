@@ -1,0 +1,687 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+body{
+    width: 1400px;
+    margin: auto;
+}
+
+header{
+    width: 1600px;
+     position: sticky;
+    top: 0px;
+    left: 0px;
+   z-index: +1;
+   box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.2);
+   background-color: white;
+
+
+}
+
+.main{
+    width: 1400px;
+    margin: auto;
+    /* padding: 10px; */
+    display: flex;
+    justify-content: space-between;
+   
+  
+
+}
+section{
+    margin: 40px;
+ 
+}
+.btn-tag{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.primary-btn{
+    /* width: 166px;
+    height: 40px; */
+    border: 1px solid #27AE60;
+    border-radius: 8px;
+    background-color: transparent;
+    box-shadow: 0 1 2 0 #1018280D;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px 18px;
+    font-size: 16px;
+    font-weight: 400;
+    color: #27AE60;
+}
+.secondary-btn{
+    height: 44px;
+    width: 90px ;
+    border: 1px solid #2699FB;
+    border-radius: 8px;
+    padding: 10px 18px; 
+    background: linear-gradient(to left, #0ACEFE, #2699FB );
+    background-color: transparent;
+    box-shadow: 0 1 2 0 #1018280D;
+}
+.container{
+    width: 1400px;
+    padding: 20px;
+    display: flex;
+    margin:auto;
+}
+.left{
+    width: 60%;
+    margin-top: 40px;
+   
+   
+   
+
+}
+.left h1{
+    font-size: 52px;
+    font-weight: 700px;
+}
+.left h1 span{
+    color: #0ACEFE;
+     background-image: url('');
+     background-repeat: no-repeat;
+    
+    
+    
+}
+.left p{
+    font-size: 22px;
+    font-weight: 400px;
+    color: #0A2134;
+}
+
+li{
+    font-size: 22px;
+    font-weight: 400px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    gap: 10px;
+    padding: 5px;
+}
+.demo-btn{
+    width: 278px;
+    height: 60px;
+     background: linear-gradient(to left, #0ACEFE, #2699FB );
+    background-color: transparent;
+    box-shadow: 0 1 2 0 #3e71d60d;
+    font-size: 20px;
+    font-weight: 700;
+    color: #FFFFFF;
+    border-radius: 8px;
+    margin: 48px 16px;
+    border: 1px solid #2699FB;
+
+    
+
+}
+.downl-btn{
+    width: 278px;
+    height: 60px;
+     font-size: 20px;
+    font-weight: 700;
+    color: #181717;
+    border-radius: 8px;
+    padding-bottom: 10px;
+
+    
+    
+
+
+}
+.right{
+    width: 40%;
+    display: flex;
+}
+.round-bx{
+    height: 552px;
+    width: 552px;
+    background-color: #E9F5FF;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+ 
+  
+}
+.contact-box{
+    width: 410px;
+    height: 492px;
+
+    
+    background-color: #FFFFFF;
+    border-radius: 8px;
+    box-shadow: 0 1 3 0 #1018281A;
+    display: flex;
+    align-items: center;
+    justify-content: center ;
+    text-align: center;
+
+}
+.form-tag{
+    display: flex;
+   
+    text-align: left;
+   margin: 20px;
+    flex-direction: column;
+}
+
+
+
+.submit-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   background: linear-gradient(to left, #0ACEFE, #2699FB );
+   
+    width: 330px;
+    height: 44px;
+     box-shadow: 0 1 2 0 #1018280D;
+     border: 1px solid #2699FB;
+     border-radius: 8px;
+     color: #FFFFFF;
+     font-size: 16px;
+     font-weight: 500;
+
+    
+}
+/* new div student trained */
+.std-details{
+    height: 146px;
+    width: 1170px;
+    background-color: #FFFFFF;
+    border-radius: 8px;
+    box-shadow: 2px 4px 2px  #002F5814;
+    display: flex;
+    box-sizing: border-box;
+    margin: 10px 40px;
+    justify-content: center;
+    align-items:center ;
+    
+}
+.std-details h3{
+    display: flex;
+    padding-left: 60px;
+    padding-right: 70px;
+    
+    font-size: 30px;
+    color: #2699FB  ;
+}
+.heading p{
+    font-size: 16px;
+   color: #43505B;
+   padding-top: 5px;
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+    text-align: center;
+  
+   
+}
+.highli-box{
+    background-color: #F7FAFF;
+    height: 641px;
+    width: 1400px;
+    
+  display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.key-highlight{
+    height: 393px;
+    width: 1171px;
+    
+  
+    
+
+}
+.head-key{
+    width: 1171px;
+    height: 87px;
+    color: #0A2134;
+ 
+
+   
+}
+.key-parent{
+    display: flex;
+    gap: 20px;
+    
+}
+.sixbox-parent{
+    display: flex;
+    gap: 20px;
+    padding: 10px;
+    
+}
+.six-box{
+    width: 370px;
+    height: 118px;
+    background-color: white;
+    margin-bottom: 20px;
+    
+    border:1px solid #e5e7eb;
+    border-radius:12px;
+    padding:18px;
+    display:flex;
+    align-items:center;
+    gap:16px;
+    padding: 5px;
+    
+    
+
+}
+.six-box h3{
+    margin-bottom: 6px;
+}
+.second-coloumn{
+    flex-direction: column;
+    
+    
+}
+.book-btn{
+    text-align: center;
+    
+}
+.book-btn button{
+    padding: 16px 48px;
+    border: 1px solid #0ACEFE;
+     box-shadow: 0 4px 14px 2px #2699FB61  ;
+     background: linear-gradient(to left, #2699FB61, #2699FB);
+     font-size: 20px;
+     color: #FFFFFF;
+     font-weight: 700;
+}
+/* Top career options in Digital Marketing */
+.digital-mkt{
+    
+    /* align-items: center;
+    justify-content: center; */
+text-align: center;
+
+}
+.digital-mkt h1{
+    font-size: 44px;
+    font-weight: 700;
+    color: #0A2134;
+}
+.digital-mkt p{
+    font-size: 18px;
+    font-weight: 400;
+    color: #0A2134;
+}
+.content-maker{
+    height: 278px;
+    width: 270px;
+    border: 1px solid #F2F4F7;
+    background-color: #FFFFFF;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px 0 #F2F4F7;
+    text-align: left;
+    padding: 20px;
+}
+.mini-box{
+    box-shadow: 0 1px 2px 0 #1018280F;
+    height: 56px;
+    width: 56px;
+    background-color: #FFFFFF;
+    border-radius: 4px;
+    margin: 20px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.content-maker h3{
+    font-size: 20px;
+    color: #0A2134;
+}
+.Get-Certified-main{
+    display: flex;
+    height: 800px;
+    width: 1400px;
+    background-color: #F7FAFF;
+}
+.Get-Certified-parent{
+    height: 894px;
+    width: 720px;
+    /* background-color: #F7FAFF; */
+    padding: 60px; 
+    /* display: flex; */
+    
+}
+.Get-Certified-box{
+    /* height: 128px; */
+    width: 578px;
+    border-radius: 8px;
+    border: 1px solid #F2F4F7;
+    box-shadow:0 4px 20px -2px #002F5814 ;
+    margin-top: 40px;
+    justify-content: center;
+    
+    display: flex;
+    background-color: #FFFFFF;
+    align-items:center;
+    
+}
+.Get-Certified-box-mini{
+
+    height: 74px;
+    width: 74px;
+border-radius: 8px;
+background-color: #E9F5FF;
+margin: 20px;
+padding: 18px;
+
+
+}
+.book-btn-certified button{
+    padding: 16px 48px;
+    border: 1px solid #0ACEFE;
+     box-shadow: 0 4px 14px 2px #2699FB61  ;
+     background: linear-gradient(to left, #2699FB61, #2699FB);
+     font-size: 20px;
+     color: #FFFFFF;
+     font-weight: 700;
+     margin-top: 40px;
+
+}
+.right-certfied-box{
+    position: relative;
+    margin: 80px;
+}
+.Certified-image{
+    position: absolute;
+    left: 35px;
+    top: 10px;
+}
+/* Curriculum of Our Digital Marketing */
+
+.Curriculum-parent{
+    margin: 60px;
+    width: auto;
+    
+
+}
+.Curriculum-heading{
+    text-align: center;
+    font-size:25px;
+    font-weight: 700px;
+    color: #0A2134;
+
+}
+.Curriculum-introduction{
+font-size: 22px;
+display: flex;
+gap: 80px;
+margin: 50px;
+
+height: 50px;  
+align-items: center;
+text-align: center;
+
+
+}
+.Curriculum-introduction a {
+    text-decoration: none;
+    color: black;
+}
+
+.Curriculum-introduction a:hover {
+    box-shadow: 0 30px 30px 3px 0;
+     background: linear-gradient(to left, #a18b6a61, #95ad8c);
+     border: 1px solid #E9F5FF;
+     padding: 16px;
+     border-radius: 20px;
+    
+}
+.Curriculum-list{
+    height: 270px;
+    width: 1170px;
+    border-radius: 8px;
+    border: 1px solid #F2F4F7;
+    box-shadow: 0 4px 20px -2px #002F5814;
+    margin: 30px;
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center ;
+    margin-left: 80px;
+}
+.Curriculum-list ul{
+    display: flex;
+    gap: 40px;
+    justify-content: space-between;
+    text-align: center;
+    
+}
+.Curriculum-list li{
+    padding: 10px;
+    font-size: 22px;
+    font-weight: 400px;
+    color: #0A2134;
+}
+.learn-digital-parent{
+    background-color: #F7FAFF;
+    height: 973px;
+    width: 1400px;
+
+
+}
+.learn-digital-parent-heading h2{
+    font-size: 36px;
+}
+.grid-container {
+ 
+  display: grid; 
+   grid-template-columns: repeat(3, 1fr); 
+   margin-bottom: 20px;
+  margin: 30px;
+   border: 1px solid #F7FAFF;
+  border-radius: 10px;
+  grid-template-rows: repeat(2); 
+  gap: 5px; 
+   
+}
+.grid-item {
+    background-color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    height: 284px;
+    width: 370px;
+    padding: 20px;
+    border: 1px solid #F7FAFF;
+    border-radius: 10px;
+    margin: 20px;
+    transition: 1000ms;
+}
+.grid-item img{
+    margin-bottom: 10px;
+    height: 64px;
+    width: 64px;
+}
+.grid-item h3 {
+    margin : 6px;
+    font-size: 22px;
+    
+}
+.grid-item span{
+    font-size: 20px;
+}
+.grid-item:hover{
+    width: 385px;
+    height: 300px;
+    background-color: rgb(156, 94, 192);
+}
+
+/* What Our Students Are Saying! */
+
+
+.Saying-heading{
+    text-align: center;
+
+}
+.Saying-heading h1{
+    font-size: 45px;
+}
+.saying-box-parent{
+    display: flex;
+    width: 1200px;
+    margin: auto;
+    box-sizing: border-box;
+    gap: 30px;
+    margin-top: 40px;
+}
+.left-box-parent{
+    
+    background-color: #FFFFFF;
+    border: 1px solid #F7FAFF;
+    width: 570px;
+    height: 285px;
+    box-shadow: 0 4px 20px 0 #002F5814;
+    
+
+}
+.saying-left-box{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 17px;
+    
+}
+.saying-left-box img{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin: 20px 20px;
+    
+}
+.left-box-parent p{
+    font-size: 20px;
+    margin: 20px;
+    padding: 10px;
+}
+
+
+
+.course-box-parent{
+    width: 1170px;
+    border: 1px solid blue;
+    margin: auto;
+    height: 384px;
+    margin-top: 120px;
+     background: linear-gradient(to left, #2699FB61, #2699FB);
+    display: flex;
+    justify-content: space-between;
+    text-align: center;  
+    border-radius: 22px;
+  
+}
+.rotate-tag{
+  margin-top: 40px;
+  transform:rotate(180deg);
+  
+}
+.course-box-parent h1{
+    font-size: 44px;
+    color: #FFFFFF;
+
+}
+.course-box-parent span{
+    font-size: 18px;
+    color: #FFFFFF;
+}
+.mid-box {
+    padding: 40px;
+    }
+.course-btn button{
+    padding: 16px 48px;
+    border-radius: 8px;
+    background-color: #FFFFFF;
+    border: none;
+    font-size: 20px;
+}
+.course-btn{
+    padding-top: 50px;
+    text-align: center;
+
+}
+
+
+/* Digital Marketing Course FAQs */
+.course-faqs{
+    height:859px;
+    width: 1400px;
+    background-color: #F7FAFF;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+.website-tag h1{
+    font-size: 45px;
+    padding-bottom: 20px;
+
+}
+.website-tag1{
+    background-color: #FFFFFF;
+    border-radius: 8px;
+    border: 1px solid #0ACEFE;
+    width: 770px;
+    height: 163px;
+    padding: 20px;
+    text-align: left;
+    padding: 20px;
+    margin: 10px;
+    
+
+}
+.website-tag1 h3{
+    color: #2699FB;
+    font-size: 22px;
+}
+.devlopment-tag{
+    background-color: #FFFFFF;
+    text-align: left;
+    border-radius: 8px;
+    border: 1px solid #F2F4F7;
+    box-shadow: 0 1px 2px -2px #1018280D;
+    width: 770px;
+    height: 62px;
+    font-size: 22px;
+    padding: 20px;
+}
+
+/* Top Companies Hiring Digital Marketing in India */
+.hiring-tag{
+    text-align: center;
+    margin: 30px;
+}
+.hiring-tag h1{
+    font-size: 40px;
+    font-weight: 700px;
+padding-top: 40px;
+padding-bottom: 30px;
+}
+
+
+.last-parent{
+    width: 1400px;
+    height: 282px;
+    background-color: #0A2540;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 50px 0px;
+}
+
+
