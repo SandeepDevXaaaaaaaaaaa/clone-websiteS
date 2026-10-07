@@ -1,13 +1,13 @@
-# Clone WebsiteS
+# Clone Website
 
-A responsive frontend website project built with **HTML, CSS and JavaScript**.
+A responsive frontend practice project built with **HTML and CSS**.
 
 ## ✨ Highlights
 
 - Responsive website layout
 - Custom CSS styling
 - Image-based UI sections
-- Clean separation of HTML, CSS and assets
+- Separate HTML, CSS and image assets
 
 ## 📁 Structure
 
@@ -17,7 +17,7 @@ A responsive frontend website project built with **HTML, CSS and JavaScript**.
 
 ## ▶️ Run locally
 
-Open `index.html` in a browser, or use the VS Code Live Server extension.
+Open `index.html` in a browser or use the VS Code Live Server extension.
 
 ## 🎯 Purpose
 
